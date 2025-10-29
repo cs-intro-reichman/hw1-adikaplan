@@ -9,7 +9,7 @@ public class Bill3 {
 		double pay_each = (double)(total / 3);
 		pay_each = Math.ceil(pay_each);
 		System.out.println("Dear "+ name3 + ", " + name2 + ", " + "and " + name1 + ": " + 
-		"pay " + pay_each + " shekels each.");
+		"pay " + pay_each + " Shekels each.");
       
 	}
 }
