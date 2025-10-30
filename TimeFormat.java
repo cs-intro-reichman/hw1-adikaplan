@@ -6,9 +6,9 @@ public class TimeFormat {
 		String day_time = "AM";
 		String night_time = "PM";
 		String result = "";
-		if (hours <= 12){
+		if (hours < 12){
 			result = day_time;
-		}else if(hours > 12){
+		}else if(hours >= 12){
 			result = night_time;
 		}
 		if (hours > 12){
